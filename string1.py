@@ -1,0 +1,5 @@
+genome = input()
+chisl = genome.upper().count('G')
+chisl = chisl + genome.upper().count('C')
+znam = len(genome)
+print(chisl/znam*100)
